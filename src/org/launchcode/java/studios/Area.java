@@ -16,6 +16,11 @@ public class Area {
         System.out.println("Enter a radius: ");
         radius = in.nextFloat();
 
+        while (radius < 0) {
+            System.out.println("Error:  Radius cannot be negative.  Please enter a new value: ");
+            radius = in.nextFloat();
+        }
+
         cArea = (pi * (radius * radius));
         System.out.println("The area of a circle of radius " + radius + " is: " + cArea);
     }
