@@ -1,4 +1,4 @@
-package org.launchcode.java.prep_exercises;
+package org.launchcode.java.studios;
 
 import java.util.Scanner;
 
@@ -14,11 +14,11 @@ public class Area {
 
         in = new Scanner(System.in);
         System.out.println("Enter a radius: ");
-        radius = in.nextFloat();
+        radius = in.nextDouble();
 
         while (radius < 0) {
             System.out.println("Error:  Radius cannot be negative.  Please enter a new value: ");
-            radius = in.nextFloat();
+            radius = in.nextDouble();
         }
 
         cArea = (pi * (radius * radius));
