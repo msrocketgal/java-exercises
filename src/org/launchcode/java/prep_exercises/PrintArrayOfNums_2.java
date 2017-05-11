@@ -6,7 +6,7 @@ package org.launchcode.java.prep_exercises;
  * Then loop through the array and print out each value.
  */
 
-public class PrintArrayOfNums {
+public class PrintArrayOfNums_2 {
 
     public static void main(String[] args){
         // Declare and initialize an array of integers
