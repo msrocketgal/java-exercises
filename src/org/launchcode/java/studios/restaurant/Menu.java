@@ -29,11 +29,11 @@ public class Menu {
         return this.lastUpdated;
     }
 
-    public String MenuToString() {
+    public String toString() {
         String strMenu = "";
         for(int i = 0; i < this.items.size(); i++){
             MenuItem mItem =this.items.get(i);
-            strMenu += mItem.toString();
+            strMenu += mItem.toString() + "\n";
         }
         return strMenu;
     }

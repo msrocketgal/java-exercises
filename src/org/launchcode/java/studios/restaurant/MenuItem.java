@@ -48,7 +48,7 @@ public class MenuItem {
         isNew = aNew;
     }
 
-    public String MenuItemToString() {
+    public String toString() {
         return "Description: " + this.description + " Price: " + this.price + " Category: " + this.category + " New: " + this.isNew;
     }
 
